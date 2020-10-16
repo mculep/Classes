@@ -6,8 +6,4 @@ name = input("Insert name\n")
 
 subject = input("Insert favorite subject in school:\n")
 
-#print(f"What is your {name}?")
-
-#print(f"What is your favorite {subject}")
-
 print (f"{name}'s favorite subject in school is {subject} .")
