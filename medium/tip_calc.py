@@ -18,7 +18,7 @@ else:
     tip = total_bill *.0
     
 
-print("Your tip is %.2f" %tip)
+print("Your tip is %.2f" % tip)
 
 
 
