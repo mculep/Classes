@@ -2,4 +2,6 @@
 # Create a list of numbers, print the smallest of the numbers.
 
 num = [3, 78, 54, 23,54]
-print(num[0])
+print(min(num))
+
+
