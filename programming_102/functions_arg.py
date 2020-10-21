@@ -56,4 +56,3 @@ def movie(movie_item):
     print(f"3. Year: {Year}")
 
 movie("Star Wars - A new hope", "Sci-Fi", "1977")    
-

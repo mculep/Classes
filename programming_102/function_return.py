@@ -6,8 +6,9 @@
 # print the results.
 ###########################
 
-
-
+def things(hobby, day):
+    print(f"I like to {hobby} during the {day} hours.")
+things("surf", "morning")    
 
 
 # #2
