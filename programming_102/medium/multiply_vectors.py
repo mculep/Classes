@@ -1,16 +1,7 @@
 
-#1
-
-things = ["lamp", "imac", "keyboard", "iphone"]
-
-
-for i in range(len(things)):
-    print(i, things[i])
-
 
 #######################################
 
-#2
 
 
 # 1. Multiply Vectors
