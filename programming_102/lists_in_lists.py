@@ -21,30 +21,30 @@ print(oahu[2])
 # the name to the heading.
 
 #####################
-# shopping_names = ["Veggies", "Cold Items", "Junk Food"]
-# shopping_lists = [
-#     ['Corn', 'Potatoes', 'Tomatoes'],
-#     ['milk', 'eggs', 'cheese', 'yogurt'],
-#     ['frozen pizza', 'popsicle']]
-# i = 0
-# for name in shopping_names:
-#     j = 0
-#     print("%i. %s" % (i+1, name))
-#     for food in shopping_lists[i]:
-#         print("   %i. %s" % (j+1, food))
-#         j += 1
-#     i += 1
+shopping_names = ["Veggies", "Cold Items", "Junk Food"]
+shopping_lists = [
+    ['Corn', 'Potatoes', 'Tomatoes'],
+    ['milk', 'eggs', 'cheese', 'yogurt'],
+    ['frozen pizza', 'popsicle']]
+i = 0
+for name in shopping_names:
+    j = 0
+    print("%i. %s" % (i+1, name))
+    for food in shopping_lists[i]:
+        print("   %i. %s" % (j+1, food))
+        j += 1
+    i += 1
 
 ##############################
 
 
-# index = 0
-# k = 0
-# places = ["Beaches", "Malls", "Islands"]
+index = 0
+k = 0
+places = ["Beaches", "Malls", "Islands"]
 
-# for i in places:
-#     print("%i. %s" % (index+1, i))
-#     index += 1
+for i in places:
+    print("%i. %s" % (index+1, i))
+    index += 1
 
 
 
