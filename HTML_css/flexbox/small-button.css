@@ -1,0 +1,10 @@
+/* Center the button in a 500px x 500px box */
+
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
