@@ -3,9 +3,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@600&display=swap");
 
 * {
-    background-color: rgb(247, 245, 245);
     margin: 0;
-    padding: 0;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -20,6 +19,14 @@ header {
     padding: 30px 70px;
 }
 
+.hero {
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/hero-image.jpeg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
 .logo {
     font-family: "Pathway Gothic One", sans-serif;
     font-size: 1.2em;
@@ -28,7 +35,6 @@ header {
 }
 
 .nav {
-    /* border-bottom: 1px solid rgb(27, 23, 23); */
     text-align: right;
     height: 70px;
     line-height: 70px;
@@ -76,7 +82,7 @@ label {
 .hero-container {
     height: 100vh;
     width: 70%;
-    margin: auto;
+    margin: 70px;
     display: flex;
     align-items: center;
 }
@@ -114,15 +120,4 @@ label {
     margin-top: 50px;
     padding: 10px 40px 10px 40px;
     border-width: 0.5px;
-}
-
-.hero-image {
-    display: flex;
-    max-width: 10px;
-    position: absolute;
-}
-
-img {
-    display: flex;
-    width: 600px;
 }
