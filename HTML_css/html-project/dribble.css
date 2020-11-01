@@ -1,17 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@600&display=swap");
 
 * {
-    background-color: rgb(233, 230, 230);
+    background-color: rgb(247, 245, 245);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* body {
-    height: 100vh;
-} */
+/* ***********Start Of Header*********** */
 
 header {
     display: -webkit-flex;
@@ -44,50 +42,52 @@ header {
     padding: 0 15px;
 }
 
-.left {
+/* ***********End Of Header*********** */
+
+.hero-container {
+    height: 100vh;
+    width: 70%;
+    margin: auto;
     display: flex;
-    flex-direction: row;
-    margin: 50px;
+    align-items: center;
 }
 
-.left-content {
-    width: 500px;
-    position: relative;
-    padding: 50px;
-    font-family: "Playfair Display SC", serif;
-    font-size: 1.5em;
-    justify-content: center;
-    /* flex-direction: column; */
-}
-
-.sub-content {
-    font-size: 0.7em;
-    margin-top: 10px;
-    margin-right: 150px;
-    position: absolute;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.button {
-    position: relative;
-    margin-top: 150px;
-    margin-right: 150px;
-    flex-direction: column;
-    padding: 10px 20px 10p 20px;
-}
-
-.image {
+.hero-content {
     display: flex;
-    flex-direction: row;
-    justify-content: end;
+    flex-direction: column;
+}
+
+.hero-content h2 {
+    font-family: "Cormorant", serif;
+    text-transform: uppercase;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.hero-content h3 {
+    font-family: "Cormorant", serif;
+    font-size: 1em;
+    color: rgb(75, 71, 71);
+    text-align: center;
+    padding: 10px;
+}
+
+.spicy {
+    font-family: "Cormorant", serif;
+    text-transform: uppercase;
 }
 
 .cta {
     font-family: "Pathway Gothic One", sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
-    position: fixed;
-    padding: 10px 50px 10px 50px;
+    margin-top: 50px;
+    padding: 10px 40px 10px 40px;
     border-width: 0.5px;
-    margin: 75px;
+}
+
+.image img {
+    position: absolute;
+    width: 700px;
 }
