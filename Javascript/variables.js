@@ -5,13 +5,14 @@ let a = 1;
 let b = 2;
 let c = 3;
 
-
 // 2. Write a program that declares a const and gives it a value.
 
-const food = pizza;
+const food = "pizza";
+console.log(food);
 
 // 3. Write a program that declares and asigns a string to 3 variables on one line.
 
-let a = 2, b =4, c = 6; 
-console.log(a,b,c)
-
+let a = 2,
+    b = 4,
+    c = 6;
+console.log(a, b, c);
