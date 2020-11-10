@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Select Element</title>
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                width: 300px;
+                line-height: 40px;
+                color: rgba(64, 24, 159, 0.694);
+                font-size: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            #username {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 30px;
+            }
+
+            #text-color {
+                margin: 10px 20px;
+            }
+
+            #birthday {
+                padding: 10px 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1em;
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <label for="username">User Name</label>
+        <input id="username" class="" name="username" placeholder="username" />
+        <input type="range" name="volumn" min="0" max="10" step="1" value="2" />
+        <input type="color" id="text-color" name="text-color" value="#e66465" />
+        <input type="date" id="birthday" name="birthday" value="1981-30-11" />
+        <label for="description">Condition Description</label>
+        <textarea
+            id="description"
+            name="description"
+            cols="20"
+            rows="20"
+            placeholder="Leave a comment"
+        ></textarea>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <label for="favorite-beaches">Favorite Beaches</label>
+        <select name="favorite-beaches" id="favorite-beaches">
+            <option value="">-----Pick A favorite Beach-----</option>
+            <option value="Ehukai">Ehukai</option>
+            <option value="Waimea">Waimea</option>
+            <option value="Ala moana">Ala moana</option>
+        </select>
+
+        <script>
+            let newOpt = document.createElement("option");
+            newOpt.value = "Makua";
+            newOpt.innerText = "Makua";
+            document.querySelector("#favorite-beaches");
+            document.querySelector("#favorite-beaches").append(newOpt);
+        </script>
+    </body>
+</html>
