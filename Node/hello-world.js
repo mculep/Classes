@@ -2,7 +2,9 @@
 
 // 1. Console log from 1 to 100 using node.
 
-for (let i = 0; i < 100; i++) console.log(i);
+for (let i = 1; i < 101; i++) {
+    console.log(i);
+}
 
 // 2. Create a function that accepts a string as an argument.
 // Have the program write to the terminal "The cow says ... {the value supplied}"
@@ -12,8 +14,8 @@ function myfunc(cow) {
     console.log(`The cow says ... ${cow}.`);
 }
 myfunc("moo");
-myfunc("moo");
-myfunc("moo");
+myfunc("hello");
+myfunc("howzit");
 
 let people = [
     { name: "batman", powers: "none" },

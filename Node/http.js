@@ -3,6 +3,7 @@
 // Add a secret message in in the console using the script tag.
 
 const http = require("http");
+const port = 4200;
 
 const htmlContent = `
       <!DOCTYPE html>
@@ -18,8 +19,11 @@ const htmlContent = `
                   <li>It's Just a String!</li>
               </ul>
               <script>
-                  console.log("It's like magic")
-              </script>
+              fetch("http://localhost:5566")
+              .then(res=>res.json())
+              .then(data=>console.log(data))
+              .catch(err=>console.log(err))
+          </script>
           </body>
       </html>
   `;
