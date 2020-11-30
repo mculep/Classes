@@ -1,4 +1,4 @@
-// *********** Udemy Node Practice *************
+// *********** Udemy Node Practice / FETCHING DATA*************
 const listElement = document.querySelector(".posts");
 const singlePost = document.getElementById("single-post");
 
