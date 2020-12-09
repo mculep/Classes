@@ -5,9 +5,9 @@ const server = http.createServer(app);
 const port = 4000;
 const es6Renderer = require('express-es6-template-engine');
 
-app.engine("html", ex6Renderer) // register a new view engine
-app.set("views", "templates") // where to find the template files
-app.set{"view engine", "html"} // default view engine
+app.engine("html", ex6Renderer) 
+app.set("views", "templates") 
+app.set{"view engine", "html"} 
 
 
 app.get("/", (req, res) => {
